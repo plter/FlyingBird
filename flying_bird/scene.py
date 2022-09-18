@@ -167,7 +167,7 @@ class Scene(Container):
             self.children.append(self._hand_click)
 
         self._vendor_info_label.visible = True
-        # self._vendor_info_label.text = "yunp.top"
+        self._vendor_info_label.text = "yunp.top"
         self._vendor_info_label.x = (config.SCREEN_WIDTH - self._vendor_info_label.width) // 2
         self._vendor_info_label.y = config.SCREEN_HEIGHT - 8 - 6
 
