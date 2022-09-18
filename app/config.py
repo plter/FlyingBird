@@ -1,0 +1,9 @@
+# OLED use the default Hardware I2C pin of ESP32
+# SCL 18, SDA 19
+BUZZER_PIN = 5
+BUTTON_PIN = 12
+
+SCREEN_WIDTH = 128
+SCREEN_HEIGHT = 64
+
+SHOW_FPS = False
